@@ -1,0 +1,14 @@
+{
+	"name": "Ruby 2.6 Rails 6",
+	"dockerFile": "Dockerfile",
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"appPort": ["3000:3000"],
+
+	"extensions": [
+		"rebornix.Ruby"
+	]
+}
