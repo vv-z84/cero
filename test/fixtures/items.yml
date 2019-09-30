@@ -1,7 +1,19 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
+  name: ItemOne
 
 two:
-  name: MyString
+  name: ItemTwo
+
+pastel:
+  name: Pastel
+
+pastel_dough:
+  name: Pastel Dough
+
+frying_oil:
+  name: Frying Oil
+
+meat:
+  name: Meat
