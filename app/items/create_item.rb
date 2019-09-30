@@ -1,9 +1,9 @@
 class CreateItem
-    def initialize(item)
-        @item = item
+    def initialize(item_model)
+        @item_model = item_model
     end
 
-    def execute()
-        @item.save
+    def call(item)
+        @item_model.create(item)
     end
 end
