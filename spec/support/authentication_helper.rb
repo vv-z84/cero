@@ -11,8 +11,6 @@ module AuthenticationTestHelper
   end
 
   def login_user(email, password)
-    params = { email: email, password: password }
-    post "/authenticate", { params: params, as: :json }
-    response.body
+    token = AuthenticateUser.call(email, password).result
   end
 end
