@@ -5,13 +5,11 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import { App } from '../Cero/src/App'
+import { Main } from '../Cero/src/Main'
 
 document.addEventListener('DOMContentLoaded', () => {
   render(
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>,
+    <Main />,
     document.getElementById('application'),
   )
 })

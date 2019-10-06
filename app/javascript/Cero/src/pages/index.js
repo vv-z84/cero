@@ -1,3 +1,5 @@
-import { LoginPage } from './LoginPage'
+import { AppPage } from './App'
+import { LoginPage } from './Login'
+import { RegisterPage } from './Register'
 
-export { LoginPage }
+export { AppPage, LoginPage, RegisterPage }
