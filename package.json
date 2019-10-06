@@ -2,7 +2,8 @@
   "name": "cero",
   "private": true,
   "scripts": {
-    "start": "rails s -b 0.0.0.0"
+    "start": "rails s -b 0.0.0.0",
+    "test": "bin/rspec"
   },
   "dependencies": {
     "@babel/preset-react": "^7.0.0",
