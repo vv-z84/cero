@@ -1,4 +1,4 @@
-class ItemsController < ApplicationController
+class ItemsController < ApiController
     def index
         item_list = ListItem.new.execute
 
