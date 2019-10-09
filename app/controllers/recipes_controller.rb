@@ -1,4 +1,4 @@
-class RecipesController < ApplicationController
+class RecipesController < ApiController
   def create
     result = CreateRecipe.new(Recipe).call(recipe_params[:item_id], recipe_params[:recipe_type_id], recipe_params[:ingredients])
 
